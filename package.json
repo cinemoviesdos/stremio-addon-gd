@@ -1,12 +1,13 @@
 {
-  "name": "stremio-ejemplo-addon",
+  "name": "gdrive-stremio",
   "version": "1.0.0",
-  "description": "Un addon de ejemplo para Stremio.",
+  "description": "Stremio addon for Google Drive",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "stremio-addon-sdk": "^1.2.0"
+    "stremio-addon-sdk": "latest",
+    "gdrive-dl-cli": "latest"
   }
 }
