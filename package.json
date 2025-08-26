@@ -1,0 +1,12 @@
+{
+  "name": "stremio-ejemplo-addon",
+  "version": "1.0.0",
+  "description": "Un addon de ejemplo para Stremio.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.2.0"
+  }
+}
