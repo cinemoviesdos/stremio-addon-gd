@@ -1,0 +1,21 @@
+{
+  "id": "com.ejemplo.mi-addon",
+  "version": "1.0.0",
+  "name": "Mi Addon de Ejemplo",
+  "description": "Un addon simple para aprender a usar Stremio.",
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "ejemplo_catalog",
+      "name": "Películas de Ejemplo"
+    }
+  ],
+  "idPrefixes": ["tt"]
+}
