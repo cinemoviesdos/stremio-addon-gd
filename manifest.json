@@ -1,21 +1,15 @@
 {
-  "id": "com.ejemplo.mi-addon",
+  "id": "com.ejemplo.gdrive-addon",
   "version": "1.0.0",
-  "name": "Mi Addon de Ejemplo",
-  "description": "Un addon simple para aprender a usar Stremio.",
-  "resources": [
-    "catalog",
-    "stream"
-  ],
-  "types": [
-    "movie"
-  ],
+  "name": "Gdrive Movies",
+  "description": "Reproduce películas de Google Drive.",
+  "resources": ["catalog", "stream"],
+  "types": ["movie"],
   "catalogs": [
     {
       "type": "movie",
-      "id": "ejemplo_catalog",
-      "name": "Películas de Ejemplo"
+      "id": "gdrive-catalog",
+      "name": "Mis Películas de Drive"
     }
-  ],
-  "idPrefixes": ["tt"]
+  ]
 }
