@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "stremio-addon-sdk": "latest",
-     "gdrive-dl-cli": "^version"
+    "stremio-addon-sdk": "latest"
+     
   }
 }
