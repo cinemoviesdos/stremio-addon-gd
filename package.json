@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "stremio-addon-sdk": "latest",
-    "gdrive-dl-cli": "latest"
+     "gdrive-dl-cli": "^version"
   }
 }
